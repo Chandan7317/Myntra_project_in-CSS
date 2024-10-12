@@ -1,0 +1,576 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Nav bar Code  */
+nav {
+    /* border: 1px solid black; */
+    background-color: #ffffff;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* margin-top: 0px; */
+ position: fixed;
+
+
+
+ 
+   
+}
+
+/* Logo Code  */
+nav>.logo {
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 10%;
+    
+}
+
+nav>.logo>img {
+    height: 100%;
+    width: 60%;
+    /* border: 1px solid black; */
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Category Code */
+
+nav>.category {
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 40%;
+    display: flex;
+   
+}
+nav>.category>li {
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px;
+    /* height: 30px;
+    margin-top: 12px;
+    border-radius: 5px; */
+}
+/* nav>.category>li:hover{
+    background-color: rgb(180, 243, 244);
+    color: black;
+    cursor: pointer;
+} */
+nav>.category>li>sup{
+    margin-bottom: 8px;
+    color: hotpink;
+    margin-left: 5px;
+}
+
+
+
+/* SearchContainer Code */
+
+nav>.searchContainer {
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 30%;
+
+    
+  
+}
+nav>.searchContainer>.searchbar {
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+  
+    
+}
+nav>.searchContainer>.searchbar>span {
+  
+    height: 35px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d1d1e0;
+    border-radius: 5px 0px 0px 5px;
+}
+nav>.searchContainer>.searchbar>input {
+    height: 35px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    background-color: #d1d1e0;
+    border-radius: 0px 5px 5px 0px;
+  
+}
+/* Menu Code */
+nav>.menu {
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 20%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-transform: capitalize;
+}
+i.fa-regular.fa-user {
+    margin-left: 12px;
+}
+i.fa-regular.fa-heart {
+    margin-left: 15px;
+}
+i.fa-solid.fa-bag-shopping {
+    margin-left: 5px;
+}
+
+
+/* Section Timer code */
+
+section.timemerContainer {
+    padding-top: 90px;
+    height: 135px;
+    width: 100%;
+    background: linear-gradient(to right, #F8F8FF, #DFE9FF);
+}
+section.timemerContainer>article{
+    width: 100%;   
+}
+section.timemerContainer>article>p {
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+b{
+    color: red;
+}
+
+/* -- Section 2 Code -- */
+
+section.FloatContainer {
+    /* border: 1px solid black; */
+    height: 100px;
+    width: 100%;
+    margin-top: 30px;
+ 
+
+}
+section.FloatContainer>figure>img {
+    height: 100px;
+    width: 93%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+/* Section 3 Code */
+
+section.bainerContainer {
+    /* border: 1px solid black; */
+    height: auto;
+    width: 100%;
+    display: flex;
+   
+}
+section.bainerContainer>figure {
+    /* border: 1px solid black; */
+    height: 450px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+}
+
+section.bainerContainer>.leftside>img {
+    height: 450px;
+    width: 100%;
+}
+section.bainerContainer>.rightside>img {
+    height: 450px;
+    width: 100%;
+}
+
+
+/* Section 4 Code */
+
+section.Section_5_Conatainer {
+    /* border: 1px solid black; */
+    height: 100px;
+    width: 100%;
+    display: flex;
+}
+section.Section_5_Conatainer>figure {
+    /* border: 1px solid black; */
+    height: 100px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section.Section_5_Conatainer>.leftside>img {
+    height: 100px;
+    width: 94%;
+    margin-left: 45px;
+}
+section.Section_5_Conatainer>.rightside>img {
+    height: 100px;
+    width: 94%;
+    margin-right: 45px;
+}
+
+
+/* Section 5 code  */
+
+
+section.paymentContainer {
+    /* border: 1px solid black; */
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+section.paymentContainer>figure>img {
+    width: 100%;
+    height: 35px;
+}
+
+/* Section 6 Code */
+
+section.Coupan_Container {
+    /* border: 1px solid black; */
+    height: 120px;
+    width: 100%;
+}
+section.Coupan_Container>.coupan_image>img {
+    height: 100%;
+    width: 100%;
+}
+
+/* Section 7 Code */
+
+section.discountcode_Container {
+    /* border: 1px solid black; */
+    height: 100px;
+    width: 100%;
+    display: flex;
+}
+
+section.discountcode_Container>figure {
+    height: 100px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section.discountcode_Container>.left>img{
+    height: 100px;
+    width: 90%;
+}
+section.discountcode_Container>.right>img{
+    height: 100px;
+    width: 90%;
+}
+
+/* Section 8 Code */
+
+section.OmgDeals_Container {
+/* border: 1px solid black; */
+height: 100px;
+width: 100%;
+}
+
+section.OmgDeals_Container>figure>img{
+    height: 100px;
+    width: 100%;
+}
+
+
+/* Section 9 Code */
+
+section.Section_9_Container {
+    /* border: 1px solid black; */
+    height: 360px;
+    width: 100%;
+    display: flex;
+}
+section.Section_9_Container>figure {
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section.Section_9_Container>figure>img {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* Section 10 Code */
+
+section.section_10_Conatiner {
+    width: 100%;
+}
+section.section_10_Conatiner>h1 {
+    width: 95%;
+    height: 150px;
+    padding-top: 60px;
+    margin-left: 50px;
+    font-size: 35px;
+    font-weight: 700;
+    color: #42404a;
+}
+/* Section 11 Code */
+
+section.Section_11_Container {
+      height: 360px;
+    width: 100%;
+    display: flex;
+   
+}
+section.Section_11_Container>figure {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section.Section_11_Container>figure>img {
+    height: 100%;
+    width: 100%;
+}
+
+/* Section 11 Code */
+
+section.section_12_Conatiner {
+    width: 100%;
+}
+section.section_12_Conatiner>h1 {
+    width: 95%;
+    height: 150px;
+    padding-top: 60px;
+    margin-left: 50px;
+    font-size: 35px;
+    font-weight: 700;
+    color: #42404a;
+}
+
+
+/* Section 13 Code */
+
+section.Section_13_Container {
+    height: 360px;
+  width: 100%;
+  display: flex;
+ 
+}
+section.Section_13_Container>figure {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section.Section_13_Container>figure>img {
+  height: 100%;
+  width: 100%;
+}
+
+
+/* Section 14 Code */
+
+section.Section_14_Container {
+    height: 360px;
+  width: 100%;
+  display: flex;
+ 
+}
+section.Section_14_Container>figure {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section.Section_14_Container>figure>img {
+  height: 100%;
+  width: 100%;
+}
+
+/* Section 15 Code */
+
+section.Section_15_Container {
+    height: 360px;
+  width: 100%;
+  display: flex;
+ 
+}
+section.Section_15_Container>figure {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section.Section_15_Container>figure>img {
+  height: 100%;
+  width: 100%;
+}
+
+/* Section 16 Code */
+
+section.Section_16_Container {
+    height: 360px;
+  width: 100%;
+  display: flex;
+}
+
+section.Section_16_Container>figure>img {
+  height: 100%;
+  width: 100%;
+ margin-left: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+/* Section 17 footer Code */
+
+
+section.footerContainer {
+    /* border: 1px solid black; */
+    height: 500px;
+    width: 80%;
+    background-color: #fafbfd;
+    margin: 0px auto;
+    margin-top: 40px;
+    display: flex;
+}
+section.footerContainer>article {
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 100%;
+}
+
+/* Category 1 Code */
+section.footerContainer>article>.category_1 {
+    height: 400px;
+    list-style: none;
+    margin-left: 100px;
+}
+section.footerContainer>article>.category_1>.liststyle {
+    padding: 5px;
+    color: #9798a9;
+    text-transform: capitalize;
+}
+
+section.footerContainer>article>.category_1>.bolt_1{
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+section.footerContainer>article>.category_1>.bolt_2 {
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+/* Category 2 Code */
+section.footerContainer>article>.category_2 {
+    height: 400px;
+    list-style: none;
+    margin-left: 70px;
+}
+section.footerContainer>article>.category_2>.bolt_1{
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform:uppercase;
+}
+section.footerContainer>article>.category_2>.liststyle {
+    padding: 5px;
+     color: #9798a9;
+     text-transform:capitalize;
+}
+
+/* Category 3 Code */
+
+article.category_3>p {
+    font-size: 13px;
+    font-weight: 700;
+}
+figure.logoapp {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+figure.logoapp>figure {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+figure.logoapp>figure>img{
+    height: 50px;
+    width: 100%;
+}
+
+article.span_container {
+    height: 30px;
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    font-size: 25px;
+}
+article.span_container>span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+}
+
+/* Category 4 Code */
+article.category_4 {
+    margin-left: 80px
+}
+
+section.section_part1 {
+    display: flex;
+    align-items: center;
+}
+section.section_part1>img {
+    height: 50px;
+    width: 20%;
+}
+
+section.section_part2 {
+      display: flex;
+   align-items: center;
+}
+section.section_part2>img {
+    height: 50px;
+    width: 20%;
+
+   }
